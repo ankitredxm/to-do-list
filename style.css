@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font:Arial;
+}
+.master{
+    background:linear-gradient(250deg,red,blue);
+}
+
+.container{
+    margin-top:100px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+}
+
+.todo{
+    width:33%;
+    border-radius: 6px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading{
+    margin:15px;
+    font-size: 2rem;
+    font-weight:700;
+}
+
+.input-box{
+    margin-left: 15px;
+    margin-right:15px;
+    height:20%;
+    display:flex;
+    
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+input{
+    flex:1;
+   
+   
+    height:100%;
+    border:none;
+    outline:none;
+    padding:10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    z-index:1;
+}
+button{
+    width:20%;
+    border:none;
+    outline:none;
+    background-color: yellow;
+
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+}
+
+.list{
+    height:100%;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius:25px;
+    background-color: rgba(200, 128, 20,0.3);
+}
+.list-container{
+ margin-left:20px;
+ margin-top:20px;
+display:flex;
+flex-direction: column;
+gap:4px;
+
+}
+ul li{
+    list-style:none;
+    font-size:17px;
+    padding: 12px 8px 12px 8 px;
+    cursor:pointer;
+}
+
+/* 
+ul li span{
+    position: absolute;
+    right:0;
+    top:5px;
+    width:40px;
+    height:40px;
+    font-size: 22px;
+    color:#555;
+    line-height:40px;
+    text-align:center;
+} */
+
+
+.msg{
+    align-self: center;
+   
+    font-size: 2rem;
+    font-weight: 600;
+}
